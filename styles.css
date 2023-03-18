@@ -1,0 +1,111 @@
+/* Universal*/
+body {
+    display: block;
+    margin: 0 140px;
+    font-family: 'Nunito Sans';
+    padding-bottom: 10px;
+}
+h2 {
+    font-size: 35px;
+}
+/* Header*/
+h1 {
+    text-align: center;
+}
+/*Color Boxes*/
+div {
+    border: 2px solid gray;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+.colors .blue, .pink, .red, .orange {
+    display: inline-block;
+    width: 187px;
+    text-align: center;
+    padding: 20px 60px;
+    font-size: 20px;
+    line-height: 2;
+    margin: 0 100px;
+    
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+.pink {
+    background-color: pink;
+}
+.red {
+    background-color: red;
+    color: white;
+}
+.orange {
+    background-color: orange;
+    margin-top: 50px;
+}
+
+/* Fonts Boxes*/
+h3 {
+    text-decoration: underline;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.flist li {
+    list-style: none;
+    line-height: 2;
+}
+#source, .normal-fonts, .bolds, .italics {
+    font-family: 'Source Code Pro';
+}
+#poppins {
+    font-family: 'Poppins';
+    padding-left: 20px;
+}
+.font-panel {
+    display: inline-block;
+    border: 0;
+    margin-right: 300px;
+    margin-top: -40px;
+}
+.boldp, .bolds, .bold {
+    font-weight: bold;
+}
+.italicp, .italics, .italic {
+    font-style: italic;
+}
+.normal-fontp, .boldp, .italicp {
+    font-family: 'Poppins';
+}
+.normal-fontn, .bold, .italic {
+    font-size: 18px;
+}
+
+/* Text Styles Box */
+.text-panel .main, .sub, .paragraph {
+    display: block;
+    border: 0;
+
+}
+.mheading {
+    text-align: left;
+    font-weight: 700 (bold);
+    font-size: 26px;
+    font-family: 'Nunito Sans';
+}
+.sheading {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+
+
+
